@@ -1,51 +1,183 @@
 <html>
     <head>
-        <title>shopping Onlin
-        </title>
-    <style type="text/css">
-        #daan{ 
-        color: blueviolet;
-            font-weight: bold;
-            font-size: 40px;
-                text-decoration: underline;
-            background-color: darkgray
+    <title>Traditional clothes</title>
+     <style type="text/css">
+         
+         
+         body{
+             background-color:beige;
+         }
+         .top{
+             text-decoration: underline;
+             color:red;
+             font-size:30;
+             
+         }
+         #picture1{
+             height: 300px;
+             width: 350px;
+         }
+         .main{
+             display: flex
+         }
+         .left{
+             flex: 3;
+         }
+         .right{
+             background-color:none;
+             text-align: center;
+             flex: 3;
+             height: 300px;
+             width: 300px;
+             border-radius: 30px;
+         }
+         #title{
+             font-family: 20px;
+             border: 1px solid grey;
+             border-radius: 25px;
+             text-align: center;
+             padding: 50px;
+             font-size: 40px;
+             background-color:lightblue;
+         }
+         .rightImg {
+             width: 200px;
+             height: auto;
+             border-radius: 30px;
+             }
+         
+    @keyframes moveBox{
+            0%{border
+                left: 10px;
+            }    
+           50%{
+                left: 60%;
             }
-        #pectuer{
-            height:200px;
-            weight:200px;
+            100%{
+                left:30%;
+            }
+        } 
+         
+         @keyframes moveBox1{
+            0%{border
+                right: 10px;
+            }    
+           50%{
+                right: 60%;
+            }
+            100%{
+                right:30%;
+            }
         }
-        #nano{
-          height:200px;
-            weight:200;
-        }
-        #nano2{
-            height:200px;
-            weight:200;
-        }
-        #nn{
-            height:300px;
-            weight:200px;
+         
+         
+             
+        .box{
+            
+           top: 0px;
+            left: 1px;
+           position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            animation: moveBox 3s infinite;
+             border-radius: 70px;
         }
         
-        </style>
-    
+       
+   </style>
     </head>
+    
+    
+    
+    
+    
     <body>
-        <p id="daan">welcom to the shopping online of technology
-        </p>
-        <h1> we have evrey tybes of the smart phone:
-        </h1>
-       <img id="pectuer"src =" https://i.ytimg.com/vi/NKY93vCiPIo/maxresdefault.jpg"\>
-        <img id="nano"src ="http://cdn.mos.cms.futurecdn.net/Mffc35PH77Dq7USrHb4qNm-1200-80.jpg"\>
-       <img id="nano2" src =" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvNrb3VwZQ4ixFVlrUoNFRXAnQc3Evx_oevA0ihw8OSde7KJXj5w"\>
-        <p>             it is one of the best smart phoneThe apple iPhone is a mobile phone that is made by Apple. It does many things that a computer can do, but is small enough to fit in someone's hand. It is a mobile phone, meaning that it makes calls without wires. It can use Wi-Fi and access the Internet as well. Like an iPod, it plays music and videos that have been put on it from a big computer, which is called syncing. It also has a calendar and camera, and can send text messages. People use the iPhone by touching the screen with a finger or two. This is done by tapping, dragging, and even typing on a keyboard shown on the screen. The first-generation iPhone can run iPhone OS 3.1.3, the iPhone 3G can run iOS 4.2.1, and the iPhone 3GS can run iOS 6.1.6. The iPhone 5 and later can run the newest version of iOs </p>
-</p>
-        <div>
-            <img src="https://i.ebayimg.com/images/g/vk4AAOSwDk5UAA-N/s-l300.jpg"\>
-            <img id="nn" src="https://cnet1.cbsistatic.com/img/z5fG_-a4W3aOuU64_2CjG8rObGk=/fit-in/970x0/2016/03/24/98b22101-af44-419e-a6c9-ab8bd07cab84/iphone-se-comparison-11.jpg"\>
-            <p>iphone 5 is one of the best smart phone  </p>
+        
+        <h1 id="title">Traditional Clothes</h1>
+        
+        <h class="top">The Sari, India</h>
+  <div class="main">
+    
+      <div class="left"> <p>    
+Ostensibly the simplest item of clothing possible – a single length of fabric, up to nine metres long – the sari is also one of the world’s most versatile and stylish garments, which can be draped in dozens of different ways. The sari spans all of Indian society, from simple cotton versions that are woven in the street throughout the villages of India to extremely glamorous contemporary styles that grace the catwalk during India Fashion Week.</p> 
+      </div>
+<div class="right"><img class="rightImg" id="picture1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg3CJT1QSXqloPg6tqBmUu03ExJWuZIeBmPrgHnzTU2M-0v_pg"/> 
         </div>
-        <a href="https://www.google.com">link to google</a>
-    </body>
-
+      </div>
+        
+        
+       <h class="top">Kilts, Scotlandh</h>
+  <div class="main">
+      <div class="left"><p> 
+From Braveheart to Strictly Come Dancing, the kilt has been used to represent all things Scottish, anachronistically so in the case of Mel Gibson’s costume as William Wallace. However, visit any Scottish Highland Games, and you’ll see that kilt-wearing traditions are alive and well, from the immaculately dressed competitive dancers to the pipe players in formal attire and, most impressively of all, the participants in the “heavy events” – for you cannot toss a caber properly unless wearing a kilt. </p></div>
+       <div class="right"> <img class="rightImg" id src="https://s-media-cache-ak0.pinimg.com/236x/9f/88/f6/9f88f6cf06df88ff7482cd9d83df14fb--scottish-kilts-precious-children.jpg"/>
+      </div>
+        </div>
+        
+        
+        
+        
+    <h class="top">Tracht, Southern Germany and Austria</h>
+        <div class="main">
+          <div class="left">
+              <p>
+    Tracht – that’s lederhosen for men and dirndls for women – is the traditional dress across southern Germany and Austria. There are many variations on the basic styles depending on the area and on fashion, from the pom-pom hats of the Black Forest (bollenhut) to thoroughly modern versions: there’s nothing quite like a tight pair of leather shorts worn at a Pride festival to put a contemporary twist on those Bavarian lederhosen.</p>
+            </div>
+           <div class="right"> <img class="rightImg"  src="https://s-media-cache-ak0.pinimg.com/736x/1b/d4/ea/1bd4ea4a05c62bc32249e416cc9a5d01--bavaria-homeland.jpg"/> 
+        </div>
+        </div>
+        
+        
+        
+    <h class="top">Balinese temple dress, Indonesi</h>
+         <div class="main">
+     <div class="left"><p>
+Anyone visiting a Balinese temple should at least wear two basic elements of Balinese traditional dress, a sash (selendang) and a sarong-style skirt known as a kain. However, the full Balinese outfit for women, which also includes the kebaya blouse, is an elaborate ensemble worn for temple festivals that shows off Bali’s gorgeous textiles, such as ikat weaving and batik, to the full.
+       </p>
+        </div>
+       
+    <div class="right">
+     
+        <img class="rightImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyOhCON6HMO_x_RvuynTdhruOzDY_lA2mhkOHNYgND0A56wqbrqQ"/></div>
+        </div>
+        
+        
+   <h class="top">Maasai beadwork, Kenya</h> 
+   <div class="main">
+        <div class="left">
+  <p>
+One of the smaller ethnic groups in Kenya, but one of the most recognisable, the Maasai’s reputation worldwide belies its size, no small part thanks to their stunning attire: brilliant red cloth, extraordinarily intricate beadwork and – for young men – long, ochre-dyed hair. The beadwork in particular contains much meaning, a bride’s collar being the pinnacle of Maasai craftsmanship.
+</p>
+        </div>
+        <div class="right"><img class="rightImg" src="https://www.roughguides.com/wp-content/uploads/2015/01/BVH-20827844-1680x1050.jpg"/>
+      </div>
+        </div>
+       
+        
+        <h class='top'>Herero women, Namibia</h>
+         <div class="main">
+   <div class="left">
+        <p>
+The traditional dress of the Herero women in Namibia is an adaptation of Victorian dress, as worn by the German colonists they fought in a bloody conflict at the start of the twentieth century, and now retained as a proud part of Herero identity. The silhouette is distinctive: a full, floor-length skirt, fitted bodice with puffed sleeve, with a magnificent horn-shaped hat, the shape of cattle horns, completing the look.
+</p> 
+    </div>
+       <div class="right">
+        <img class="right" src="https://upload.wikimedia.org/wikipedia/commons/7/71/Herero_women.jpg"/>
+    </div>
+        </div>
+        
+        
+       <h class="top">Traditional Female Kurdish Dress</h>
+    <div class="main">
+        <div class="left">
+    <p>
+Traditional dress for women in Kurdistan consists of very colorful clothing. Usually a long dress or gown is worn, over which a jacket or vest is worn. Colorful belts are included, as are colorful pants.
+Traditional shoes for Kurdish women are also colorful, and may be embroidered with beads or precious stones.</p>
+            </div>
+        <div class="right">
+     <img class="rightImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Kurdish_dress.png/220px-Kurdish_dress.png"/>
+        </div>
+        </div>
+    </body>                                 
 </html>
